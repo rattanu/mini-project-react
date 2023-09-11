@@ -1,8 +1,11 @@
 import React from 'react'
 import "./hero.css";
+import Navbar from '../Navbar/Navbar';
 
 const Hero = () => {
   return (
+    <>
+    <Navbar/> 
     <div className='hero'>
         <div className='hero-wrap'>
             <label htmlFor="username">Username</label>
@@ -12,6 +15,8 @@ const Hero = () => {
             <button>Login</button>
         </div>
     </div>
+    </>
+
   )
 }
 

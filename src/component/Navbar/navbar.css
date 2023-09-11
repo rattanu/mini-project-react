@@ -16,4 +16,9 @@ ul{
 li{
     list-style: none;
     font-size: 2rem;
+    cursor: pointer;
 }
+
+Link{
+    text-decoration: none;
+  }

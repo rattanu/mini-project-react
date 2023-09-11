@@ -72,3 +72,9 @@ body{
   margin: 0;
   background-color: lightgray;
 }
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: black;
+}
+
