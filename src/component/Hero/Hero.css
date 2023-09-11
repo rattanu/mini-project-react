@@ -1,0 +1,33 @@
+.hero{
+    background-color: white;
+    margin: 1rem 10rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.hero-wrap{
+    display: flex;
+    flex-direction: column;
+
+}
+
+input{
+    width: 20rem;
+    padding: 1rem;
+    border: solid 1px lightgray;
+}
+
+button{
+    width: max-content;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    background: mediumpurple;
+    color: white;
+}
+
+.labalPass{
+    margin-top: 2rem;
+}
